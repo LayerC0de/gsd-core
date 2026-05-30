@@ -181,4 +181,10 @@ function loadUpdateContext(opts = {}) {
   });
 }
 
-module.exports = { resolveUpdateContext, loadUpdateContext, RUNTIME_DIRS };
+module.exports = {
+  resolveUpdateContext,
+  loadUpdateContext,
+  RUNTIME_DIRS,
+  inferPreferredRuntime,
+  envRuntimeDirs,
+};
